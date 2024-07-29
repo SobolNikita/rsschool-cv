@@ -1,8 +1,8 @@
-#Nikita Sobol
+# Nikita Sobol
 
 ---
 
-##Contacts
+## Contacts
 
 -   **Location**: Minsk, Belarus
 -   **Email**: soboln2006@gmail.com
@@ -11,10 +11,11 @@
 -   **Codewars**: [xlebyshek](https://www.codewars.com/users/xlebyshek) **4 kyu**
 -   **Codeforces**: [xlebyshek2020](https://codeforces.com/profile/xlebyshek2020) **1700 rating**
 
-##About me
+## About me
+
 I am 18 years old and I have become a **student of BSUIR** in 2024. I have no experience in commercial development but I have good basic knowledge in web development. I also have a good base in **algorithms and data structures**. In 2024 I was engaged in the [school of algorithms from Yandex](https://education.yandex.ru/kruzhok) and became the winner of the Republican Olympiad in Informatics in Belarus. Now I am developing in the sphere of **front-end development** and soon I will reach junior level.
 
-##Skills
+## Skills
 
 -   HTML
 -   CSS/SASS/SCSS
@@ -26,7 +27,7 @@ I am 18 years old and I have become a **student of BSUIR** in 2024. I have no ex
 -   Figma, Photoshop, **VSCode**, WebStrom, Sublime Text, etc.
 -   Algorithms and data structures
 
-##Code example
+## Code example
 
 [Sudoku Solver solution (_3 kyu_) Codewars](https://www.codewars.com/kata/5296bc77afba8baa690002d7)
 
@@ -136,16 +137,16 @@ var puzzle = [
 console.log(sudoku(puzzle));
 ```
 
-##Experience
+## Experience
 
 Worked on small personal projects, created small projects from lessons using **HTML, CSS, JS, REACT, TypeScript (once)**, various project builders and libraries
 
-##Education
+## Education
 
 -   **Belarusian State University of Informatics and Radioelectronics**
     -   _Faculty of Computer Systems and Networks (2024 - 2028)_
 
-##Languages
+## Languages
 
 -   **Russian** (native)
 -   **Belarusian**
