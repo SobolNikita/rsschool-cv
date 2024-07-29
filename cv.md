@@ -150,6 +150,6 @@ Worked on small personal projects, created small projects from lessons using **H
 
 -   **Russian** (native)
 -   **Belarusian**
-    -   ##**English** (Intermediate)
+    -   ## **English** (Intermediate)
         -   C1 [EFSET result](https://cert.efset.org/qztyTX)
         -   B1 [EPAM examinator result](https://ibb.co/YpNqY83)
