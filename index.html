@@ -3,7 +3,245 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <title>cv</title>
     </head>
-    <body></body>
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#code">Code</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience"
+                                >Experience</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#language">Languages</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="sections-wrapper">
+                    <section class="section profile-section">
+                        <img
+                            class="profile-logo"
+                            src="./assets/img/profile.jpg"
+                            alt="my logo"
+                        />
+                        <div class="profile-wrapper">
+                            <h1 class="profile-name">Nikita Sobol</h1>
+                            <h3 class="profile-profession">
+                                Front-end developer
+                            </h3>
+                        </div>
+                    </section>
+                    <section class="section section-contacts" id="contacts">
+                        <h2 class="main-header contacts-header">Contacts</h2>
+                        <ul class="list contact-list">
+                            <li class="item contact-item contact-item-location">
+                                <span class="bold">Location</span>: Minsk,
+                                Belarus
+                            </li>
+                            <li class="item contact-item contact-item-email">
+                                <span class="bold">Email</span>:
+                                soboln2006@gmail.com
+                            </li>
+                            <li class="item contact-item contact-item-github">
+                                <span class="bold">GitHub</span>:
+                                <a
+                                    class="contact-href"
+                                    href="https://github.com/SobolNikita"
+                                    >SobolNikita</a
+                                >
+                            </li>
+                            <li class="item contact-item contact-item-discord">
+                                <span class="bold">Discord:</span>
+                                <a
+                                    class="contact-href"
+                                    href="https://discordapp.com/users/379293531036188683/"
+                                    >xlebyshek</a
+                                >
+                            </li>
+                            <li class="item contact-item contact-item-codewars">
+                                <span class="bold">Codewars</span>:
+                                <a
+                                    class="contact-href"
+                                    href="https://www.codewars.com/users/xlebyshek"
+                                    >xlebyshek</a
+                                >
+                                <span class="bold">4 kyu</span>
+                            </li>
+                            <li
+                                class="item contact-item contact-item-codeforces"
+                            >
+                                <span class="bold">Codeforces</span>:
+                                <a
+                                    class="contact-href"
+                                    href="https://codeforces.com/profile/xlebyshek2020"
+                                    >xlebyshek2020</a
+                                >
+                                <span class="bold">1700 rating</span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="section section-about" id="about">
+                        <h2 class="main-header about-header">About me</h2>
+                        <p class="text about-text">
+                            I am 18 years old and I have become a
+                            <span class="bold">student of BSUIR</span> in 2024.
+                            I have no experience in commercial development but I
+                            have good basic knowledge in web development. I also
+                            have a good base in
+                            <span class="bold"
+                                >algorithms and data structures</span
+                            >. In 2024 I was engaged in the
+                            <a
+                                class="school-yandex"
+                                href="https://education.yandex.ru/kruzhok"
+                                >school of algorithms from Yandex</a
+                            >
+                            and became the winner of the Republican Olympiad in
+                            Informatics in Belarus. Now I am developing in the
+                            sphere of
+                            <span class="bold">front-end development</span>
+                            and soon I will reach junior level.
+                        </p>
+                    </section>
+                    <section class="section section-skills" id="skills">
+                        <h2 class="main-header skills-header">Skills</h2>
+                        <ul class="list skills-list">
+                            <li class="item skills-item">HTML</li>
+                            <li class="item skills-item">CSS/SASS/SCSS</li>
+                            <li class="item skills-item">
+                                JavaScript (Fundamentals, ES6+, DOM, JSON,
+                                Asynchronous JavaScript)
+                            </li>
+                            <li class="item skills-item">
+                                C++ (Basic knowledge)
+                            </li>
+                            <li class="item skills-item">React (Basic)</li>
+                            <li class="item skills-item">Git, GitHub</li>
+                            <li class="item skills-item">Webpack (Basic)</li>
+                            <li class="item skills-item">
+                                Figma, Photoshop,
+                                <span class="bold">VSCode</span>, WebStrom,
+                                Sublime Text, etc.
+                            </li>
+                            <li class="item skills-item">
+                                Algorithms and data structures
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="section section-code" id="code">
+                        <h2 class="main-header code-header">Code example</h2>
+                        <a
+                            class="code-link"
+                            href="https://www.codewars.com/kata/53dc54212259ed3d4f00071c/train/javascript"
+                            >Sum Arrays</a
+                        >
+                        <pre class="pre">
+                            <code>
+function sum (numbers) {
+  return numbers.reduce((acc, cur) => {
+    return acc + cur;
+  }, 0);
+};
+                            </code>
+                        </pre>
+                    </section>
+                    <section class="section experience-section" id="experience">
+                        <h2 class="main-header experience-header">
+                            Experience
+                        </h2>
+                        <p class="text experience-text">
+                            Worked on small personal projects, created small
+                            projects from lessons using
+                            <span class="bold"
+                                >HTML, CSS, JS, REACT, TypeScript (once)</span
+                            >, various project builders and libraries
+                        </p>
+                    </section>
+                    <section class="section education-section" id="education">
+                        <h2 class="main-header education-header">Education</h2>
+                        <h4 class="university">
+                            Belarusian State University of Informatics and
+                            Radioelectronics
+                        </h4>
+                        <h5 class="faculty">
+                            Faculty of Computer Systems and Networks (2024 -
+                            2028)
+                        </h5>
+                    </section>
+                    <section class="section language-section" id="language">
+                        <h2 class="main-header language-header">Languages</h2>
+                        <ul class="list language-list">
+                            <li class="item language-item">
+                                <span class="bold">Russian</span> (native)
+                            </li>
+                            <li class="item language-item">
+                                <span class="bold">Belarusian</span>
+                            </li>
+                            <li
+                                class="item language-item language-item-english"
+                            >
+                                English (Intermediate)
+                            </li>
+                            <ul class="list english-list">
+                                <li class="item english-item">
+                                    C1
+                                    <a
+                                        class="english-test"
+                                        href="https://cert.efset.org/qztyTX"
+                                        >EFSET result</a
+                                    >
+                                </li>
+                                <li class="item english-item">
+                                    B1
+                                    <a
+                                        class="english-test"
+                                        href="https://ibb.co/YpNqY83"
+                                        >EPAM examinator result</a
+                                    >
+                                </li>
+                            </ul>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-block">
+                        <a class="github-href" href="https://github.com/SobolNikita"></a>
+                        <h2 class="footer-year">2024</h2>
+                    </div>
+
+                    <a
+                        class="course-logo"
+                        href="https://rs.school/courses/javascript-ru"
+                    ></a>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
