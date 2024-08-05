@@ -1,0 +1,301 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Nunito-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    scroll-behavior: smooth;
+}
+
+.section {
+    width: 47%;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 2px solid #b4afa9;
+}
+.pre {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.bold {
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #819985;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 300;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 30px 0;
+}
+.nav-item:nth-child(1) {
+    margin-left: 50%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s all;
+}
+.nav-link:hover {
+    color: #cfcfcf;
+    transition: 0.4s all;
+}
+
+.profile-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+.profile-section {
+    width: 100%;
+    display: flex;
+    padding: 45px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px #d7d1c9 solid;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-name {
+    position: relative;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.profile-name::after {
+    content: "";
+    position: absolute;
+    left: 32%;
+    bottom: -19px;
+    width: 120px;
+    height: 2px;
+    background-color: #819985;
+}
+.profile-profession {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+.list {
+    list-style: none;
+}
+.item {
+    position: relative;
+    padding-left: 30px;
+}
+.item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #819985;
+    border-radius: 50%;
+}
+
+.main-header {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #819985;
+}
+
+.contact-href {
+    text-decoration: none;
+    color: #819985;
+    transition: 0.4s all;
+}
+
+.contact-href:hover {
+    text-decoration: none;
+    color: #5a5a5a;
+    transition: 0.4s all;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.sections-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.language-item-english {
+    font-size: 24px;
+    font-weight: 600;
+}
+.language-item-english::before {
+    top: 10px;
+}
+.english-item {
+    padding-left: 50px;
+}
+.english-item::before {
+    top: 7px;
+    left: 25px;
+}
+.english-test {
+    text-decoration: none;
+    color: #819985;
+    transition: 0.4s all;
+}
+.english-test:hover {
+    color: #5a5a5a;
+    transition: 0.4s all;
+}
+.university {
+    font-size: 22px;
+    font-weight: 500;
+}
+.faculty {
+    position: relative;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.faculty::before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #819985;
+    border-radius: 50%;
+}
+.code-link {
+    font-size: 22px;
+    text-decoration: none;
+    color: #819985;
+    transition: 0.4s all;
+}
+.code-link:hover {
+    color: #5a5a5a;
+    transition: 0.4s all;
+}
+.language-section {
+    border: none;
+}
+.course-logo {
+    display: block;
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/svg/rs-school-logo.svg");
+    background-size: cover;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.footer {
+    background-color: #809985;
+}
+.footer-year {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.school-yandex {
+    text-decoration: none;
+    font-size: 20px;
+    color: #819985;
+    transition: 0.4s all;
+}
+.school-yandex:hover {
+    color: #5a5a5a;
+    transition: 0.4s all;
+}
+.contact-item {
+    margin: 8px 0;
+    padding-left: 35px;
+}
+.contact-item::before {
+    content: "";
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 0;
+}
+.contact-item-location::before {
+    background: url("./assets/img/location.png");
+    background-size: contain;
+}
+.contact-item-email::before {
+    background: url("./assets/img/email.png");
+    background-size: contain;
+}
+.contact-item-github::before {
+    background: url("./assets/img/github.png");
+    background-size: contain;
+}
+.contact-item-discord::before {
+    background: url("./assets/img/discord.png");
+    background-size: contain;
+}
+.contact-item-codewars::before {
+    background: url("./assets/img/codewars.png");
+    background-size: contain;
+}
+.contact-item-codeforces::before {
+    background: url("./assets/img/codeforces.png");
+    background-size: contain;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.footer-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+.github-href {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url("assets/img/github-white.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
